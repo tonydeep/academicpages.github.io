@@ -1,8 +1,8 @@
-html, body {
+/*html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   color: #444;
-}
+}*/
 /*#header {
   width: 100%;
   height: 400px;
@@ -181,13 +181,13 @@ li {
   color: #070;
 }
 
-h2 {
+/*h2 {
   margin: 0;
   text-align: center;
   font-weight: 400;
   font-size: 40px;
   padding: 10px 0px 40px;
-}
+}*/
 
 hr.soft {
   border: 0;
