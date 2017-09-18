@@ -223,6 +223,7 @@ hr.soft {
 }
 .pubimg {
   text-align: center;
+  margin-bottom: 10px;
 }
 .pubimg img {
   max-width: 50%;
