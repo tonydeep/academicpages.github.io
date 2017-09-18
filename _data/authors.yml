@@ -1,13 +1,13 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+  name        : "Tony Khánh"
+  uri         : "https://tonydeep.github.io/"
+  email       : "tvkhanh@jaist.ac.jp"
+  bio         : "I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning."
+  avatar      : "profile.png"
+  twitter     : "TVKhanh_ICTU"
+  google_plus : "tvkhanh.ictu"
 
 Name2 Name2:
   name        : "Name2 Name2"
