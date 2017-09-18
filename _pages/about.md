@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "TEST ABOUT ME"
+title: "ABOUT ME"
 excerpt: "About me"
 author_profile: false
 redirect_from: 
