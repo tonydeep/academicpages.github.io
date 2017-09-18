@@ -97,11 +97,12 @@
       {% if author.codepen %}
         <li><a href="https://codepen.io/{{ author.codepen }}"><i class="fa fa-fw fa-codepen" aria-hidden="true"></i> CodePen</a></li>
       {% endif %}
-      {% if author.vine %}
-        <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
-      {% endif %}
+      
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if author.researchgate %}
+        <li><a href="https://www.researchgate.net/profile/{{ author.researchgate }}"><i class="fa fa-fw fa-researchgate" aria-hidden="true"></i> Researchgate</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
