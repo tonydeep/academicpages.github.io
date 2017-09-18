@@ -121,10 +121,10 @@ li {
     padding: 0px 10px 0px 10px;
   }
   .timelineitem:nth-child(odd):before {
-   left: -3px;
+   left: -8px;
   }
   .timelineitem:nth-child(even):before {
-    right: -3px;
+    right: -8px;
   }
 }
 
@@ -187,11 +187,11 @@ h2 {
   font-size: 40px;
   padding: 10px 0px 40px;
 }
-#sitefooter {
+/*#sitefooter {
   height: 300px;
   margin-top: 200px;
   background-color: #F1F3F4;
-}
+}*/
 hr.soft {
   border: 0;
   height: 1px;
