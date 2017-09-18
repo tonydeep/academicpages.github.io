@@ -7,5 +7,6 @@ redirect_from:
   - /ab/
   - /ab.html
 ---
-
+<!-- {% include base_path %}
 {% include ab.html %}
+ -->
