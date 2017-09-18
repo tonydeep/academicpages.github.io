@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" hola_ext_inject="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tony Khánh Academic Website</title>
+{% include base_path %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/about_style.css"/>
 
   <style type="text/css"></style></head>
@@ -251,8 +246,8 @@
 <div id="sitefooter">
 </div>
 
-<script src="./static/jquery-1.11.1.min.js"></script>
-<script src="./static/bootstrap.min.js"></script>
+<script src="{{ base_path }}/assets/css/jquery-1.11.1.min.js"></script>
+<script src="{{ base_path }}/assets/css/bootstrap.min.js"></script>
 <script>
 
 var more_projects_shown = false;
@@ -289,4 +284,4 @@ function start() {
 }
 
 </script>
-</body></html>
+</body>
