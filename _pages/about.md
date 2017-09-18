@@ -5,9 +5,70 @@ excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
-  - /ab.html
-<!--   - /about.html -->
+  - /about.html
 ---
+<div class="container">
+  
+  <div class="timelineitem">
+      <div class="tdate">October 2017</div>
+      <div class="ttitle"><a href="http://kse2017.dhsphue.edu.vn/ConferenceProgram.htm" style="color:#333;">The 9th International Conference on Knowledge and Systems Engineering (KSE 2017)</a></div>
+      <div class="tdesc"><span class="thigh">October 19-21 in Hue, Vietnam</span></div>
+      <div> </div>
+    </div>
+
+  <div class="timelineitem">
+      <div class="tdate">August 2017</div>
+      <div class="ttitle"><a href="http://www.sigdial.org/workshops/conference18/" style="color:#333;">The 18th Annual SIGdial Meeting on Discourse and Dialogue (SIGDIAL 2017)</a></div>
+      <div class="tdesc"><span class="thigh">August 15-17 in Saarbrücken, Germany</span></div>
+      <div> </div>
+    </div>
+  
+  <div class="timelineitem">
+      <div class="tdate">August 2017</div>
+      <div class="ttitle"><a href="http://pacling.ucsy.edu.mm/pacling/" style="color:#333;">The 15th International Conference of the Pacific Association for Computational Linguistics (PACLING 2017)</a></div>
+      <div class="tdesc"><span class="thigh">August 16 - 18, 2017 in Yangon, Myanmar </span></div>
+      <div> </div>
+    </div>
+
+  <div class="timelineitem">
+      <div class="tdate">July 2017</div>
+      <div class="ttitle"><a href="http://acl2017.org/" style="color:#333;">Annual Meeting of the Association for Computational Linguistics (ACL 2017)</a></div>
+      <div class="tdesc"><span class="thigh">July 30-August 4, 2017 in Vancouver, Canada</span></div>
+  </div>
+    
+    <!-- <div class="timelineitem">
+      <div class="tdate">Fall 2015</div>
+      <div class="ttitle">Research Semester at CERN</div>
+      <div class="tdesc">Monte Carlo simulation of <span class="thigh">Higgs Radiation</span>.</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2014</div>
+      <div class="ttitle">Dartmouth's <a href="http://cosanlab.com/">Cosan</a> Lab</div>
+      <div class="tdesc">My advisor is Luke Chang</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">Summer 2014</div>
+      <div class="ttitle"> Oceanography REU at Oregon State</div>
+      <div class="tdesc"><span class="thigh">Nearshore physics</span> and video feature extraction</div>
+    </div>
+    <div class="timelineitem">
+     <div class="tdate">Winter 2013</div>
+      <div class="ttitle">Internship at BigML</div>
+      <div class="tdesc"><span class="thigh">Machine Learning</span> for image classification.</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2013</div>
+      <div class="ttitle">Dartmouth College</div>
+      <div class="tdesc">Major in <span class="thigh">Physics</span>.</div>
+    </div> -->
+  </div>
+</div>
+
+<div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+  <b>Bio</b>. I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning.
+
+
+
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
