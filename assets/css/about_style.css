@@ -153,48 +153,39 @@ li {
 }
 
 .tdate {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: -5px;
   color: rgb(132,0,0);
 }
 .ttitle {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 .tdesc {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 @media (max-width: 768px) {
   .tdate {
-    font-size: 16px;
+    font-size: 15px;
   }
   .ttitle {
-    font-size: 16px;
+    font-size: 15px;
   }
   .tdesc {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 .thigh {
   color: #070;
 }
-.quote {
-  color: #777;
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
-  padding: 90px 0 50px;
-}
-.quote blockquote {
-  font-size: 28px;
-}
+
 h2 {
   text-align: center;
-  font-weight: 300;
-  font-size: 50px;
-  padding: 30px 0px 40px;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 10px 0px 40px;
 }
 #sitefooter {
   height: 300px;
@@ -304,14 +295,14 @@ hr.soft {
 }
 .showmore {
   border: 1px solid #CCC;
-  padding: 10px;
-  font-size: 24px;
+  padding: 6px;
+  font-size: 20px;
   width: 200px;
   text-align: center;
   color: #999;
   margin: 0px auto;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .showmore:hover {
   color: #333;
