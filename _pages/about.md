@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <div class="container">
   
   <div class="timelineitem">
@@ -66,7 +67,6 @@ redirect_from:
 
 <div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
   <b>Bio</b>. I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning.
-
 
 
 
