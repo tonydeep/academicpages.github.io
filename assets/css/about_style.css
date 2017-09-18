@@ -243,26 +243,6 @@ ul {
   text-align: left;
 }
 
-.timelineitem {
-  width: 100%;
-  position: relative;
-  padding: 0px 0px 20px 10px;
-  margin-left: 5%;
-  border-left: 5px solid #119;
-  text-align: left;
-}
-
-.timelineitem:before {
-  left: -8px;
-  width: 11px;
-  height: 11px;
-  background: #119;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  border-radius: 5px;
-}
 
 .tyear {
   font-size: 30px;
@@ -480,6 +460,7 @@ html, body {
   font-size: 14px;
   font-weight: 300;
 }
+
 @media (max-width: 768px) {
   #headerblob {
     text-align: center;
