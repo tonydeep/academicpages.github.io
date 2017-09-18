@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tony Khánh / Site Title"
+title                    : "TonyDeep's Research Blog"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Tony Khánh"
+description              : &description "Science with a spirit of adventure!"
 url                      : https://tonydeep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tonydeep/tonydeep.github.io"
@@ -19,9 +19,9 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : "tonydeep"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &TVKhanh_ICTU
 facebook:
   username               :
   app_id                 :
@@ -72,19 +72,19 @@ social:
 # Analytics
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
+  google: 
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Learning today, Leading tomorrow."
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "PhD Student at Nguyen lab, JAIST"
+  location         : "Japan"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "tvkhanh@jaist.ac.jp"
   uri              :
   bitbucket        :
   codepen          :
@@ -97,19 +97,20 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "tran-van-khanh"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "TVKhanh_ICTU"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+  researchgate_username: "Van_Khanh_Tran2"
 
 
 # Reading Files
