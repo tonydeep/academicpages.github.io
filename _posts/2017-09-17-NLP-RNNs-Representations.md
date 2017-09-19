@@ -2,15 +2,14 @@
 title: Deep Learning, NLP, and Representations
 excerpt: This post reviews some extremely remarkable results in applying deep neural networks to natural language processing (NLP)
 date: 2017-07-07
-published: true
-author: Chris Olah
-mathjax: on
-tags: neural networks, deep learning, representations, NLP, recursive neural networks
-layout: post
-category: NLP deeplearning
-comments: true
-mathjax: true
+tags: 
+  - neural networks
+  - deep learning
+  - representations
+  - NLP
+  - recursive neural networks
 ---
+<!-- category: NLP -->
 
 Introduction
 ============
