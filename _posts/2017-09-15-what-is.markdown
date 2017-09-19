@@ -6,10 +6,11 @@ tags:
   - tutorials
   - rnn
 date: 2017-09-15 11:00:00
-permalink: /posts/2017/09/15/what-is-deeplearing/
+permalink: /posts/2017/09/15/what-is-deeplearning/
 ---
 
 # Table of contents
+
 1. [Introduction](#introduction)
 2. [Biological picture](#biological)
 3. [Mathemetical picture](#mathemetical)
