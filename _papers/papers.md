@@ -7,7 +7,7 @@ layout: about
 <head>
   {% include base_path %}
   <!-- <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-  <!-- <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet"> -->
+  <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet">
   <link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
   <style type="text/css"></style>
 </head>
