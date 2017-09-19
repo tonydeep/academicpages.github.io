@@ -1,6 +1,7 @@
 ---
 title: "Interesting papers"
 collection: papers
+layout: about
 ---
 
 <head>
@@ -99,7 +100,36 @@ collection: papers
         </div>
 
 
+        <!-- Month Section -->
+      <div id="generativepapers" class="timelineitem">
+        <div class="tdate">September</div>
+        <div class="ttitle" onClick="showDetails('Auto-encoding-Sentence-Compression-Model')">
+          Language as a Latent Variable
+          <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
+            <sup class="tlink">link</sup>
+          </a>
+        </div>
+        <div id="Auto-encoding-Sentence-Compression-Model" style="display:none;">
+          <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
+          <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
+          <div class="tcontent">
+            <div class="timg_border"><img class="timage" src="/assets/papers/Auto-encoding-Sentence-Compression-Model.png"></div>
+          </div>
+            <div class="tdesc">
+              <p> <b>Hypothesis</b>
+              <ul> 
+                <li>A variational auto encoder can be used for inference of a generative model where the latent variable is a language itself.</li>
+              </ul>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+
   </div>
+
+
 
 <script>
 function start() {
