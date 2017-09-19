@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Interesting papers"
 permalink: /papers/
 collection: papers
