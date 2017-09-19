@@ -8,6 +8,7 @@ tags:
   - representations
   - NLP
   - recursive neural networks
+permalink: /posts/2017/09/17/nlp-rnns-representations/
 ---
 <!-- category: NLP -->
 
