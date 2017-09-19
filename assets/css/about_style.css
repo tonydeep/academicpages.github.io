@@ -64,7 +64,7 @@ html, body {
   color: rgb(132,0,0);
 }
 .ttitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 .tdesc {
@@ -73,13 +73,13 @@ html, body {
 }
 @media (max-width: 768px) {
   .tdate {
-    font-size: 15px;
+    font-size: 14px;
   }
   .ttitle {
-    font-size: 15px;
+    font-size: 14px;
   }
   .tdesc {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 .thigh {
