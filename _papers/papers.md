@@ -1,6 +1,5 @@
 ---
 title: "Interesting papers"
-permalink: /papers/
 collection: papers
 ---
 <head>
