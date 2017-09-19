@@ -4,6 +4,25 @@ title: "Interesting papers"
 permalink: /papers/
 collection: papers
 ---
+<head>
+  {% include base_path %}
+  <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet">
+  <link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
+  <style type="text/css"></style>
+</head>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86322230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 <body onload="start()">
 <p>A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
 
@@ -167,7 +186,6 @@ function start() {
 </script>
 
 <script type="text/javascript">
-
 function showDetails(name) {
     $('#' + name).toggle(); 
 }
