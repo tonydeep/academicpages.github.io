@@ -103,13 +103,13 @@ layout: about
         <!-- Month Section -->
       <div id="generativepapers" class="timelineitem">
         <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('Auto-encoding-Sentence-Compression-Model')">
+        <div class="ttitle" onClick="showDetails('Auto-Sentence-Compression-Model')">
           Language as a Latent Variable
           <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="Auto-encoding-Sentence-Compression-Model" style="display:none;">
+        <div id="Auto-Sentence-Compression-Model" style="display:none;">
           <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
           <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
           <div class="tcontent">
