@@ -20,8 +20,8 @@ html, body {
 }
 #headerblob {
   position: absolute;
-  left: 5%;
-  top: 165px;
+/*  left: 5%;*/
+  top: 250px;
   width: 80%;
 }
 #headertext {
