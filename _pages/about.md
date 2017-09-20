@@ -2,11 +2,12 @@
 title: "About me"
 permalink: /about/
 layout: splash
+excerpt: Learning today, Leading tomorrow.
 header:
   cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
   overlay_image: unsplash-image-10.jpg
-  caption: "Learning today, Leading tomorrow."
+  caption: "Science with a spirit of adventure!"
 ---
 
 {% include base_path %}
