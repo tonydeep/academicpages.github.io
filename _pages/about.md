@@ -4,6 +4,8 @@ title: "About me"
 author_profile: false
 layout: splash
 header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
   overlay_image: unsplash-image-10.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
