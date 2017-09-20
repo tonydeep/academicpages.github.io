@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  cta_label: "BLOGs"
+  cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
   overlay_image: about/banner-2.jpg
   caption: "Learning today, Leading tomorrow."
@@ -30,7 +30,7 @@ header:
 
 <body onload="start()">
 
-<div id="header" class="bg1">
+<!-- <div id="header"> -->
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/about/profile.png" class="img-circle imgme"></a>
     <div id="headertext">
@@ -47,8 +47,8 @@ header:
       </div>
     </div>
   </div>
-</div>
-
+<!-- </div>
+ -->
 <!--  -->
 
 <div class="container">
