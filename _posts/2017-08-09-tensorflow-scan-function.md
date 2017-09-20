@@ -13,7 +13,7 @@ tags:
   - rnn
 ---
 
-{% include toc icon="gears" title="My Table of Contents" %}
+{% include toc icon="gears" title="Table of Contents" %}
 
 <!-- {% include figure image_path="unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %} -->
 
