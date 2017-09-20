@@ -11,12 +11,15 @@ tags:
   - tensorflow
   - tutorials
   - rnn
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: unsplash-image-10.jpg
+  cta_label: "Download"
+  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 {% include toc icon="gears" title="My Table of Contents" %}
-<figure>
-  <img src="unsplash-image-10.jpg" alt="this is a placeholder image">
-  <figcaption>This is a figure caption.</figcaption>
-</figure>
 
 Hàm ***scan*** là một một trong những hàm quan trọng trong Theano và giờ đây đã được Tensorflow sử dụng bởi sự tiện lợi và linh hoạt của nó.
 
