@@ -1,17 +1,14 @@
 ---
 permalink: /about/
 title: "About me"
-excerpt: "About me"
 author_profile: true
 layout: splash
 header:
   overlay_image: unsplash-image-10.jpg
-  cta_label: "Download"
-  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 {% include base_path %}
-<!-- <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+<link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet">
 <link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
 <style type="text/css"></style>
