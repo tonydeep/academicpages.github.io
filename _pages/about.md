@@ -30,7 +30,7 @@ header:
 
 <body onload="start()">
 
-<div id="header" display="block">
+<div display="block">
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
