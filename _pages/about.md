@@ -6,6 +6,8 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
+  cta_label: ""
+  cta_url: "http://tonydeep.github.io"
   overlay_image: unsplash-image-10.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
