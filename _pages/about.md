@@ -7,8 +7,8 @@ header:
   overlay_filter: "0.5"
   cta_label: "BLOGs"
   cta_url: "http://tonydeep.github.io"
-  overlay_image: unsplash-image-10.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: about/banner-2.jpg
+  caption: "Learning today, Leading tomorrow."
 ---
 
 {% include base_path %}
@@ -30,7 +30,7 @@ header:
 
 <body onload="start()">
 
-<div id="header" class="bg1" style="background-image: url('banner-2.jpg');">
+<div id="header" class="bg1">
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/about/profile.png" class="img-circle imgme"></a>
     <div id="headertext">
