@@ -10,15 +10,11 @@ header:
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
-
-<head>
-  {% include base_path %}
-  <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet">
-  <link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
-  <style type="text/css"></style>
-</head>
-
+{% include base_path %}
+<!-- <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet"> -->
+<link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
