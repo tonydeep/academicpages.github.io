@@ -12,7 +12,6 @@ tags:
   - tutorials
   - rnn
 header:
-  overlay_filter: "0.9"
   overlay_image: unsplash-image-10.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"

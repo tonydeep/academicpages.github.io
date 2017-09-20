@@ -8,7 +8,6 @@ tags:
 date: 2017-09-15 11:00:00
 permalink: /posts/2017/09/15/what-is-deeplearning/
 header:
-  overlay_filter: "0.5"
   overlay_image: unsplash-image-1.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
