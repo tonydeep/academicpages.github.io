@@ -15,6 +15,10 @@ header:
 mathjax: true
 ---
 {% include toc icon="gears" title="My Table of Contents" %}
+<figure>
+  <img src="/assets/images/unsplash-image-10.jpg" alt="this is a placeholder image">
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
 
 Introduction
 ============
