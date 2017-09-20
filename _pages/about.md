@@ -3,8 +3,6 @@ title: "About me"
 permalink: /about/
 layout: splash
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
   cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
   overlay_image: about/banner-2.jpg
