@@ -14,7 +14,7 @@ header:
   teaser: "500x300.png"
 mathjax: true
 header:
-  overlay_filter: "0.5"
+  overlay_filter: "0.1"
   overlay_image: unsplash-image-3.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
