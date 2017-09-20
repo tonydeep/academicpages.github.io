@@ -16,12 +16,12 @@ main:
   - title: "About me"
     url: /about/
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
 
   - title: "Splash page"
     url: /splash-page/
