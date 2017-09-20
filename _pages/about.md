@@ -2,7 +2,7 @@
 title: "About me"
 permalink: /about/
 layout: splash
-excerpt: Learning today, Leading tomorrow.
+excerpt: "Learning today, Leading tomorrow."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
