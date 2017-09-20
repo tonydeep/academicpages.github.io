@@ -9,6 +9,13 @@ tags:
   - tutorials
   - rnn
 ---
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+$$ h_{t}=tanh( W_{h}h_{t-1}+W_{x}x_{t}+b) $$
+
 
 # Table of contents
 1. [Overview](#overview)
@@ -122,7 +129,9 @@ Tiếp theo, định nghĩa RNN model. Code tuy có hơi dài nhưng cơ bản v
 Các thành phần chính của RNN như sau:
 
 - Trạng thái (state) của RNN được update bởi công thức:
+
 $$ h_{t}=tanh( W_{h}h_{t-1}+W_{x}x_{t}+b) $$
+
 - ***\_vanilla\_rnn\_step*** là thành phần chính của mô hình RNN này: Nó áp dụng công thức trên bằng việc nhận đầu vào là trạng thái của bước trước cùng với input hiện tại và sinh ra trạng thái mới. Có một chút bối rối ở đây khi các bạn phải xử lý *shape* của các tensor bằng cách chuyển vị (transpose) sao cho phù hợp với việc tính toán và yêu cầu của Tensorflow. 
 - ***\_compute\_predictions*** áp dụng *\_vanilla\_rnn\_step* cho mọi bước sử dụng ***scan***, mỗi bước cho kết quả là một trạng thái mới, sau đó sử dụng một layer để biến shape của trạng thái thành shape của target và dự đoán kết quả. 
 - ***\_compute\_loss*** tính khoảng cách Euclid trung bình (<a href="https://en.wikipedia.org/wiki/Euclidean_distance">mean squared Euclidean distance</a>) giữa target thực tế và kết quả dự đoán được.
