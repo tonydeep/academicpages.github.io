@@ -18,6 +18,7 @@ header:
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
+
 {% include toc icon="gears" title="My Table of Contents" %}
 
 Introduction
