@@ -33,7 +33,7 @@ header:
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
-      <div id="htdesc" style="color:#777;">Natural Language Processing lab</div>
+      <div id="htdesc" style="color:#b2eaea;">Natural Language Processing lab</div>
       <div id="htem"><a href="mailto:tvkhanh@jaist.ac.jp">tvkhanh@jaist.ac.jp</a></div>
       <div id="icons">
         <div class="svgico">
