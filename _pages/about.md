@@ -1,7 +1,6 @@
 ---
-permalink: /about/
 title: "About me"
-author_profile: false
+permalink: /about/
 layout: splash
 header:
   overlay_color: "#000"
