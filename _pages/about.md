@@ -31,9 +31,9 @@ header:
 
 <!-- <div id="header"> -->
   <div id="headerblob">
-    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/about/profile.png" class="img-circle imgme"></a>
+    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle"></a>
     <div id="headertext">
-      <div id="htname">Tony Khánh</div>
+      <!-- <div id="htname">Tony Khánh</div> -->
       <div id="htdesc">Natural Language Processing lab</div>
       <div id="htem"><a href="mailto:tvkhanh@jaist.ac.jp">tvkhanh@jaist.ac.jp</a></div>
       <div id="icons">
