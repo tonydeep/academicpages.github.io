@@ -13,7 +13,7 @@ header:
 ---
 
 {% include base_path %}
-<link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen">
+<!-- <link href="{{ base_path }}/assets/css/static/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 <link href="{{ base_path }}/assets/css/static/style.css" rel="stylesheet">
 <link href="{{ base_path }}/assets/css/static/css" rel="stylesheet" type="text/css">
 <style type="text/css"></style>
@@ -33,17 +33,17 @@ header:
 
 <div id="header">
   <div id="headerblob">
-    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme"></a>
+    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
       <!-- <div id="htname">Tony Khánh</div> -->
       <div id="htdesc">Natural Language Processing lab</div>
       <div id="htem"><a href="mailto:tvkhanh@jaist.ac.jp">tvkhanh@jaist.ac.jp</a></div>
       <div id="icons">
         <div class="svgico">
-          <a target="_blank" href="https://github.com/tonydeep"><img src="/images/about/github.png" width="50px" class="img-circle"></a>
-          <a target="_blank" href="https://www.researchgate.net/profile/Van_Khanh_Tran2"><img src="/images/about/researchgate.png" width="50px" class="img-circle"></a>
-          <a target="_blank" href="https://www.linkedin.com/in/tran-van-khanh/"><img src="/images/about/linkedin.svg" width="50px" class="img-circle"></a>
-          <a target="_blank" href="http://tonydeep.github.io/year-archive"><img src="/images/about/blog.png" width="55px" class="img-circle"></a>        
+          <a target="_blank" href="https://github.com/tonydeep"><img src="/images/about/github.png" width="50px" class="img-circle" style="border-radius:50%;"></a>
+          <a target="_blank" href="https://www.researchgate.net/profile/Van_Khanh_Tran2"><img src="/images/about/researchgate.png" width="50px" class="img-circle" style="border-radius:50%;"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/tran-van-khanh/"><img src="/images/about/linkedin.svg" width="50px" class="img-circle" style="border-radius:50%;"></a>
+          <a target="_blank" href="http://tonydeep.github.io/year-archive"><img src="/images/about/blog.png" width="55px" class="img-circle" style="border-radius:50%;"></a>        
         </div>
       </div>
     </div>
