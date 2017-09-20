@@ -14,7 +14,7 @@ header:
   teaser: "500x300.png"
 mathjax: true
 header:
-  overlay_image: unsplash-image-3-th.jpg
+  overlay_image: unsplash-gallery-image-1-th.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
