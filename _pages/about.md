@@ -1,12 +1,11 @@
 ---
-title: "About me"
+title: "Tony Khánh"
 permalink: /about/
 layout: splash
 excerpt: "Learning today, Leading tomorrow."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
   overlay_image: unsplash-image-10.jpg
   caption: "Science with a spirit of adventure!"
@@ -31,7 +30,7 @@ header:
 
 <body onload="start()">
 
-<div id="header">
+<div id="header" display="block">
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
