@@ -13,7 +13,7 @@ tags:
   - rnn
 ---
 
-{% include toc %}
+<!-- {% include toc %} -->
 
 <!-- {% include toc icon="gears" title="Table of Contents" %} -->
 
