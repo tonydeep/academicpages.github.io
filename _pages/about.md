@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About me"
-author_profile: true
+author_profile: false
 layout: splash
 header:
   overlay_image: unsplash-image-10.jpg
