@@ -12,6 +12,7 @@ tags:
   - tutorials
   - rnn
 ---
+{% include toc icon="gears" title="My Table of Contents" %}
 
 # Table of contents
 1. [Overview](#overview)

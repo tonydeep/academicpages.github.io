@@ -12,8 +12,9 @@ tags:
 permalink: /posts/2017/09/17/nlp-rnns-representations/
 header:
   teaser: "500x300.png"
+mathjax: true
 ---
-<!-- category: NLP -->
+{% include toc icon="gears" title="My Table of Contents" %}
 
 Introduction
 ============
