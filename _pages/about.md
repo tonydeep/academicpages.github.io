@@ -31,7 +31,7 @@ header:
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
-      <div id="htdesc" style="color:#fff;">Natural Language Processing lab</div>
+      <div id="htdesc" style="color:#062a33;font-weight:400">Natural Language Processing lab</div>
       <div id="htem"><a href="mailto:tvkhanh@jaist.ac.jp">tvkhanh@jaist.ac.jp</a></div>
       <div id="icons">
         <div class="svgico">
@@ -47,7 +47,7 @@ header:
 
 <!--  -->
 
-<div class="container">
+<div class="container" style="margin-top:150px;">
   
   <div class="timelineitem">
       <div class="tdate">October 2017</div>
