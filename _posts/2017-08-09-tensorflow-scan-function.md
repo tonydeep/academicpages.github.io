@@ -8,11 +8,8 @@ tags:
   - tensorflow
   - tutorials
   - rnn
+mathjax: false
 ---
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 
 $$ h_{t}=tanh( W_{h}h_{t-1}+W_{x}x_{t}+b) $$
 
