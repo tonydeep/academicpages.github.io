@@ -14,7 +14,6 @@ header:
   teaser: "500x300.png"
 mathjax: true
 header:
-  <!-- overlay_color: "#000" -->
   overlay_filter: "0.5"
   overlay_image: unsplash-image-3.jpg
   cta_label: "Download"
