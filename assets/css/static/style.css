@@ -359,3 +359,6 @@ hr.soft {
 
 .col-md-6{width:50%}
 .col-xs-6,.col-sm-6,.col-md-6,.col-lg-6{position:relative;min-height:1px;padding-right:15px;padding-left:15px}
+
+.row{margin-right:-15px;margin-left:-15px}
+.row:before,.row:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after,.btn-toolbar:before,.btn-toolbar:after,.btn-group-vertical>.btn-group:before,.btn-group-vertical>.btn-group:after,.nav:before,.nav:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after,.pager:before,.pager:after,.panel-body:before,.panel-body:after,.modal-footer:before,.modal-footer:after{display:table;content:" "}
