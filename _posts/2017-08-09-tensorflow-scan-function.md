@@ -12,14 +12,7 @@ tags:
   - tutorials
   - rnn
 ---
-
-<!-- # Table of contents
-1. [Overview](#overview)
-2. [Formular](#formular)
-3. [Example 1: Hard code](#example1)
-4. [Example 2: Learning to predict the **Sum**](#example2)
-5. [Discussion](#discussion)
-6. [Conclusion](#conclusion) -->
+{% include toc icon="gears" title="My Table of Contents" %}
 
 Hàm ***scan*** là một một trong những hàm quan trọng trong Theano và giờ đây đã được Tensorflow sử dụng bởi sự tiện lợi và linh hoạt của nó.
 
