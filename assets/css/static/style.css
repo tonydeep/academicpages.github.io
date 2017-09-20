@@ -357,7 +357,7 @@ hr.soft {
   font-weight: 300;
 }
 
-.col-md-6{width:50%}
+.col-md-6{width:50%; float:left;}
 .col-xs-6,.col-sm-6,.col-md-6,.col-lg-6{position:relative;min-height:1px;padding-right:15px;padding-left:15px}
 
 .row{margin-right:-15px;margin-left:-15px}
