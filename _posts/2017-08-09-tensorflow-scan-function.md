@@ -8,7 +8,7 @@ tags:
   - tensorflow
   - tutorials
   - rnn
-mathjax: false
+mathjax: true
 ---
 
 $$ h_{t}=tanh( W_{h}h_{t-1}+W_{x}x_{t}+b) $$
