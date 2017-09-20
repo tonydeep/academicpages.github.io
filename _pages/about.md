@@ -100,7 +100,7 @@ header:
       <div class="row">
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="./images/papers/CoNLL-Models.png">
+            <img src="/images/papers/CoNLL-Models.png">
           </div>
         </div>
         <div class="col-md-6">
@@ -112,7 +112,7 @@ header:
             <div class="pubv"></div>
             <div class="publ">
               <ul>
-                <li><a href="./files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
+                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
                 <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
                 <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
               </ul>
@@ -126,7 +126,7 @@ header:
       <div class="row">
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="./images/papers/SIGDial-Models.png">
+            <img src="/images/papers/SIGDial-Models.png">
           </div>
         </div>
         <div class="col-md-6">
@@ -156,7 +156,7 @@ header:
       <div class="row">
         <div class="col-md-6">
           <div class="pubimg">
-            <img src="./images/papers/RGRU-Context.png">
+            <img src="/images/papers/RGRU-Context.png">
           </div>
         </div>
         <div class="col-md-6">
@@ -167,7 +167,7 @@ header:
             <div class="pubv"></div>
             <div class="publ">
               <ul>
-                <li><a href=".https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
+                <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
                 <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
               </ul>
             </div>
