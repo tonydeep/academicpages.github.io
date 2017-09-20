@@ -12,7 +12,9 @@ tags:
   - tutorials
   - rnn
 ---
+
 {% include toc icon="gears" title="My Table of Contents" %}
+
 <!-- {% include figure image_path="unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %} -->
 
 <!-- # Table of contents
@@ -29,7 +31,7 @@ Hàm ***scan*** là một một trong những hàm quan trọng trong Theano và
 
 Hàm **Scan** cho phép bạn sử dụng vòng lặp trong *Đồ thị tính toán* (<a href="https://www.tensorflow.org/versions/r0.10/get_started/basic_usage.html#the-computation-graph">computation graph</a>) của Tensorflow, cho phép bạn sử dụng thuật toán *lan truyền ngược* (<a href="https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">backpropagation</a>) và một số kỹ thuật khác trong Machine Learning. Trong Tensorflow bạn có thể định nghĩa k <a href="https://www.tensorflow.org/versions/r0.10/how_tos/graph_viz/index.html#name-scoping-and-nodes">nodes</a> mới cho vòng lặp có *k steps*. Tuy nhiên giá trị ***k*** sẽ cố định thay vì được tuỳ chỉnh mềm dẻo và việc này làm cho đồ thị tính toán của bạn trở nên <a href="https://github.com/tensorflow/tensorflow/issues/511">chậm chạp</a> hơn rất nhiều.
 
-## Formular <a name="formular">
+## Formular 
 
 ```python
 tf.scan(fn, elems, initializer=None, parallel_iterations=10, back_prop=True, swap_memory=False, name=None)
