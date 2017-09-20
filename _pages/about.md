@@ -5,7 +5,7 @@ excerpt: "About me"
 author_profile: true
 layout: splash
 header:
-  overlay_image: unsplash-image-1.jpg
+  overlay_image: unsplash-image-10.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
