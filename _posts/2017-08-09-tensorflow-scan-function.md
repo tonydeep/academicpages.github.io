@@ -4,14 +4,13 @@ date: 2017-08-09
 excerpt: "Hàm scan là một một trong những hàm quan trọng trong Theano và giờ đây đã được Tensorflow sử dụng bởi sự tiện lợi và linh hoạt của nó."
 subtitle: "High Order Functions của Tensorflow"
 permalink: /posts/2017/08/09/tensorflow-scan-function/
-header:
-  teaser: "site-logo.png"
 mathjax: true
 tags: 
   - tensorflow
   - tutorials
   - rnn
 header:
+  teaser: unsplash-image-10.jpg
   overlay_image: unsplash-image-10.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"

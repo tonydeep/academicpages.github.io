@@ -10,10 +10,9 @@ tags:
   - recursive neural networks
   - rnn
 permalink: /posts/2017/09/17/nlp-rnns-representations/
-header:
-  teaser: "500x300.png"
 mathjax: true
 header:
+  teaser: unsplash-gallery-image-1-th.jpg
   overlay_image: unsplash-gallery-image-1-th.jpg
   cta_label: "Download"
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
