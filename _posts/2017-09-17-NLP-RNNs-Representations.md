@@ -14,7 +14,7 @@ header:
   teaser: "500x300.png"
 mathjax: true
 header:
-  overlay_color: "#000"
+  <!-- overlay_color: "#000" -->
   overlay_filter: "0.5"
   overlay_image: unsplash-image-3.jpg
   cta_label: "Download"
@@ -22,10 +22,6 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 {% include toc icon="gears" title="My Table of Contents" %}
-<figure>
-  <img src="unsplash-image-10.jpg" alt="this is a placeholder image">
-  <figcaption>This is a figure caption.</figcaption>
-</figure>
 
 Introduction
 ============
