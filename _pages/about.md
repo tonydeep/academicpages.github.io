@@ -31,7 +31,7 @@ header:
 
 <body onload="start()">
 
-<!-- <div id="header"> -->
+<div id="header">
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme"></a>
     <div id="headertext">
@@ -48,8 +48,8 @@ header:
       </div>
     </div>
   </div>
-<!-- </div>
- -->
+</div>
+
 <!--  -->
 
 <div class="container">
