@@ -33,7 +33,7 @@ header:
 
 <!-- <div id="header"> -->
   <div id="headerblob">
-    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle"></a>
+    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme"></a>
     <div id="headertext">
       <!-- <div id="htname">Tony Khánh</div> -->
       <div id="htdesc">Natural Language Processing lab</div>
