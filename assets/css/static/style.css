@@ -233,7 +233,7 @@ hr.soft {
   text-align: center;
 }
 .pubimg img {
-  max-width: 100%;
+  max-width: 70%;
 }
 .puba {
   font-size: 18px;
@@ -358,3 +358,4 @@ hr.soft {
 }
 
 .col-md-6{width:50%}
+.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6{position:relative;min-height:1px;padding-right:15px;padding-left:15px}
