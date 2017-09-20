@@ -15,17 +15,17 @@ tags:
 {% include toc icon="gears" title="My Table of Contents" %}
 {% include figure image_path="unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 
-# Table of contents
+<!-- # Table of contents
 1. [Overview](#overview)
 2. [Formular](#formular)
 3. [Example 1: Hard code](#example1)
 4. [Example 2: Learning to predict the **Sum**](#example2)
 5. [Discussion](#discussion)
-6. [Conclusion](#conclusion)
+6. [Conclusion](#conclusion) -->
 
 Hàm ***scan*** là một một trong những hàm quan trọng trong Theano và giờ đây đã được Tensorflow sử dụng bởi sự tiện lợi và linh hoạt của nó.
 
-## Overview <a name="overview">
+## Overview 
 
 Hàm **Scan** cho phép bạn sử dụng vòng lặp trong *Đồ thị tính toán* (<a href="https://www.tensorflow.org/versions/r0.10/get_started/basic_usage.html#the-computation-graph">computation graph</a>) của Tensorflow, cho phép bạn sử dụng thuật toán *lan truyền ngược* (<a href="https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">backpropagation</a>) và một số kỹ thuật khác trong Machine Learning. Trong Tensorflow bạn có thể định nghĩa k <a href="https://www.tensorflow.org/versions/r0.10/how_tos/graph_viz/index.html#name-scoping-and-nodes">nodes</a> mới cho vòng lặp có *k steps*. Tuy nhiên giá trị ***k*** sẽ cố định thay vì được tuỳ chỉnh mềm dẻo và việc này làm cho đồ thị tính toán của bạn trở nên <a href="https://github.com/tensorflow/tensorflow/issues/511">chậm chạp</a> hơn rất nhiều.
 
@@ -71,7 +71,7 @@ Nào hãy cùng phân tích 2 ví dụ đơn giản để hiểu rõ hơn cách 
 	
 2. Ví dụ 2: Sử dụng RNN để giải quyết Ví dụ 1 bằng cách train RNN để dự đoán chuỗi output [1, 3, 5, 7] từ chuỗi input đã biết [1, 2, 2, 2].
 	
-## Example 1: Hard code <a name="example1">
+## Example 1: Hard code 
 
 <script src="https://gist.github.com/tonydeep/50e555ed026efb2f518d609d86df5ff7.js"></script>
 ```
@@ -106,7 +106,7 @@ Vấn đề được giải quyết bằng cách sử dụng `tf.identity()` nh�
 Kết quả là: 1.0, 2.0, 3.0, 4.0, 5.0
 ```
 
-## Example 2: Learning to predict the **Sum** <a name="example2">
+## Example 2: Learning to predict the **Sum** 
 
 Ở ví dụ này, chúng ta sẽ viết một chương trình sử dụng mô hình RNN (<a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network</a>) và huấn luyện (train) mô hình để dự đoán hàm **sum** từ tập dữ liệu huấn luyện (training data).
 
@@ -168,7 +168,7 @@ Kết quả như sau:
 
 ![alt text](https://tonydeep.github.io/img/scan_post/DL_predict_sum_summaries.png "Test Quality")
 
-## Discussion <a name="discussion">
+## Discussion 
 
 Vậy là các bạn đã hoàn thiện một chương trình RNN đơn giản để huấn luyện mô hình dự đoán chuỗi tổng luỹ tích từ chuỗi input cho trước. Một số phần các bạn có thể lưu ý để cải thiện mô hình tốt hơn:
 
@@ -176,7 +176,7 @@ Vậy là các bạn đã hoàn thiện một chương trình RNN đơn giản �
 - Giá trị của `initial_learning_rate=1e-2`. Hãy thử với các giá trị khác và quan sát `loss`.
 - Giá trị cho *gradient clipping* `max_global_norm=1.0`. Hãy thử train mô hình mà không sử dụng *gradient clipping*, cùng đó kết hợp với lựa chọn `initial_learning_rate` phù hợp.
 
-## Conclusion <a name="conclusion">
+## Conclusion 
 
 - Mô hình trên được huấn luyện tại mỗi bước cho sử dụng duy nhất 1 cặp chuỗi input và target. Việc này làm tăng thời gian huấn luyện mô hình. Cải thiện bằng cách có thể sử dụng input_size lên tuỳ thuộc vào cấu hình máy.
 - Mô hình trên sử dụng chỉ một layer, chúng ta có thể mở rộng thành *deep model* bằng cách chồng thêm 1, 2, ... các layer lên nhau: Thực hiện hàm **scan** để lấy kết quả layer thứ nhất, chạy **scan** lần thứ hai để lấy kết quả của layer thứ 2, cứ tiếp tục như vậy. Lưu ý: Output của layer *l* sẽ là input của layer *l+1*.
