@@ -5,7 +5,7 @@ layout: splash
 header:
   cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
-  overlay_image: about/banner-2.jpg
+  overlay_image: unsplash-image-10.jpg
   caption: "Learning today, Leading tomorrow."
 ---
 
