@@ -19,7 +19,7 @@ html, body {
   background-color: #299DB6;
 }
 #headerblob {
-  position: absolute;
+  /*position: absolute;*/
 /*  left: 5%;*/
   top: 250px;
   width: 80%;
