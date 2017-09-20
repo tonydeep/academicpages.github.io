@@ -1,7 +1,7 @@
 ---
 title: "Splash Page"
 layout: splash
-permalink: /
+permalink: /splash-page/
 redirect_from: 
   - /splash-page/
   - /splash-page.html
