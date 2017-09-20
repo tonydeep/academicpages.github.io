@@ -4,6 +4,8 @@ permalink: /about/
 layout: splash
 excerpt: Learning today, Leading tomorrow.
 header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
   cta_label: "Tony Khánh"
   cta_url: "http://tonydeep.github.io"
   overlay_image: unsplash-image-10.jpg
