@@ -29,19 +29,19 @@ header:
 
 <body onload="start()">
 
-<div id="header" class="bg1" style="background-image: url('about/banner-2.jpg');">
+<div id="header" class="bg1" style="background-image: url('banner-2.jpg');">
   <div id="headerblob">
-    <a target="_blank" href="http://tonydeep.github.io/"><img src="/profile.png" class="img-circle imgme"></a>
+    <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/about/profile.png" class="img-circle imgme"></a>
     <div id="headertext">
       <div id="htname">Tony Khánh</div>
       <div id="htdesc">Natural Language Processing lab</div>
       <div id="htem"><a href="mailto:tvkhanh@jaist.ac.jp">tvkhanh@jaist.ac.jp</a></div>
       <div id="icons">
         <div class="svgico">
-          <a target="_blank" href="https://github.com/tonydeep"><img src="/about/github.png" width="50px" class="img-circle"></a>
+          <a target="_blank" href="https://github.com/tonydeep"><img src="/images/about/github.png" width="50px" class="img-circle"></a>
           <a target="_blank" href="https://www.researchgate.net/profile/Van_Khanh_Tran2"><img src="/about/researchgate.png" width="50px" class="img-circle"></a>
-          <a target="_blank" href="https://www.linkedin.com/in/tran-van-khanh/"><img src="/about/linkedin.svg" width="50px" class="img-circle"></a>
-          <a target="_blank" href="http://tonydeep.github.io/year-archive"><img src="/about/blog.png" width="55px" class="img-circle"></a>        
+          <a target="_blank" href="https://www.linkedin.com/in/tran-van-khanh/"><img src="/images/about/linkedin.svg" width="50px" class="img-circle"></a>
+          <a target="_blank" href="http://tonydeep.github.io/year-archive"><img src="/images/about/blog.png" width="55px" class="img-circle"></a>        
         </div>
       </div>
     </div>
