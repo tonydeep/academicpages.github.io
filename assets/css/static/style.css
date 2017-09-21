@@ -284,6 +284,11 @@ hr.soft {
   margin-bottom: 50px;
   border-bottom: 1px solid #DDD;
 }
+.mpubwrap {
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #DDD;
+}
 .pub {
 }
 .pp {

@@ -98,26 +98,28 @@ header:
   <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 30px; padding: 10px 0px 40px;">Research</h2>
   <div id="pubs">
 
-    <div class="pubwrap">
+    <div class="mpubwrap">
       <div class="row">
           <div class="pub">
-            <div class="mpubt">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
-            <div class="mpubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
-            <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen</div>
-            <div class="mpubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
-            <div class="mpubv"></div>
-            <div class="mpubl">
-              <ul>
-                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
-                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
-                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
-              </ul>
+            <div class="mpubt" onClick="showDetails('RALSTM-model')">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
+            <div id="RALSTM-model" style="display:none;">
+              <div class="mpubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
+              <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen</div>
+              <div class="mpubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
+              <div class="mpubv"></div>
+              <div class="mpubl">
+                <ul>
+                  <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
+                  <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
+                  <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
+                </ul>
+              </div>
             </div>
           </div>
       </div>
     </div>
 
-    <div class="pubwrap">
+    <div class="mpubwrap">
       <div class="row">
           <div class="pub">
             <div class="mpubt">Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation</div>
@@ -141,7 +143,7 @@ header:
 
   <div id="morepubs">
     
-    <div class="pubwrap">
+    <div class="mpubwrap">
       <div class="row">
           <div class="pub">
             <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
@@ -158,7 +160,7 @@ header:
         </div>
     </div>
 
-    <div class="pubwrap">
+    <div class="mpubwrap">
       <div class="row">
           <div class="pub">
             <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
@@ -213,8 +215,13 @@ function start() {
       more_pubs_shown = false;
     }
   });
+}
 
+function showDetails(name) {
+    $('#' + name).toggle(); 
 }
 
 </script>
+
+
 </body>
