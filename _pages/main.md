@@ -286,6 +286,84 @@ function showDetails(name) {
     $('#' + name).toggle(); 
 }
 
+function start() {
+  var show_nlg_papers = true;
+  $("#shownlgpapers").click(function() {
+    if(!show_nlg_papers) {
+      $('[id=nlgpapers]').each(function() {
+        $('[id=nlgpapers]').slideDown('fast', function() {
+          $("#shownlgpapers").css('border', '2px solid #777');
+        })
+      });
+      show_nlg_papers = true;
+    } else {
+      $('[id=nlgpapers]').each(function() {
+        $('[id=nlgpapers]').slideUp('fast', function() {
+          $("#shownlgpapers").css('border', '2px solid #CCC');
+        })
+      });
+      show_nlg_papers = false;
+    }
+  });
+
+    var show_neuro_papers = true;
+  $("#showneuropapers").click(function() {
+    if(!show_neuro_papers) {
+      $('[id=neuropapers]').each(function() {
+        $('[id=neuropapers]').slideDown('fast', function() {
+          $("#showneuropapers").css('border', '2px solid #777');
+        })
+      });
+      show_neuro_papers = true;
+    } else {
+      $('[id=neuropapers]').each(function() {
+        $('[id=neuropapers]').slideUp('fast', function() {
+          $("#showneuropapers").css('border', '2px solid #CCC');
+        })
+      });
+      show_neuro_papers = false;
+    }
+  });
+
+    var show_misc_papers = true;
+  $("#showmiscpapers").click(function() {
+    if(!show_misc_papers) {
+      $('[id=miscpapers]').each(function() {
+        $('[id=miscpapers]').slideDown('fast', function() {
+          $("#showmiscpapers").css('border', '2px solid #777');
+        })
+      });
+      show_misc_papers = true;
+    } else {
+      $('[id=miscpapers]').each(function() {
+        $('[id=miscpapers]').slideUp('fast', function() {
+          $("#showmiscpapers").css('border', '2px solid #CCC');
+        })
+      });
+      show_misc_papers = false;
+    }
+  });
+
+    var show_generative_papers = true;
+  $("#showgenerativepapers").click(function() {
+    if(!show_generative_papers) {
+      $('[id=generativepapers]').each(function() {
+        $('[id=generativepapers]').slideDown('fast', function() {
+          $("#showgenerativepapers").css('border', '2px solid #777');
+        })
+      });
+      show_generative_papers = true;
+    } else {
+      $('[id=generativepapers]').each(function() {
+        $('[id=generativepapers]').slideUp('fast', function() {
+          $("#showgenerativepapers").css('border', '2px solid #CCC');
+        })
+      });
+      show_generative_papers = false;
+    }
+  });
+}
+
 </script>
 
 
