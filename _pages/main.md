@@ -96,7 +96,7 @@ header:
 <hr class="soft" style="margin-top:50px;">
 <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
 <center>
-  <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
+  <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">My list of publications filtered by subject. Click for details</p>
 </center>
 <center>
   <div class="mshowmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
@@ -170,7 +170,7 @@ header:
             </div>
             
             <!-- <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span> -->
-            </div>
+            <!-- </div> -->
 
             <div class="mpubl">
               <ul>
@@ -201,8 +201,8 @@ header:
             <p> This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.
             </p>
           </div>
-            <!-- <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span> -->
-        </div>
+            <!-- <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
+            </div> -->
 
         <div class="mpubl">
           <ul>
