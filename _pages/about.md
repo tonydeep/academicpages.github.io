@@ -207,18 +207,18 @@ header:
 </div>
  -->
 
-<hr class="soft">
+<hr class="soft" style="margin-top:50px;">
 
 <div class="container">
 
-  <h2>Clone from others</h2>
+  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Clone from others</h2>
   
   <div class="row">
 
     <div class="col-md-6">
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/nn.png" class="img-circle">
+          <img src="/images/nn.png" class="img-circle" style="border-radius:50%;">
         </div>
         <div class="miscd">
           I wrote a math + code introduction to neural networks and backpropagation. Uses pure numpy and a <a href="https://nbviewer.jupyter.org/github/greydanus/np_nets/blob/master/mnist_nn.ipynb">Jupyter notebook</a>.
@@ -227,7 +227,7 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/eye.png" class="img-circle">
+          <img src="/images/eye.png" class="img-circle" style="border-radius:50%;">
           <!-- <div class="colorrect img-circle"></div> -->
         </div>
         <div class="miscd">
@@ -237,7 +237,7 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/psi.png" class="img-circle">
+          <img src="/images/psi.png" class="img-circle" style="border-radius:50%;">
         </div>
         <div class="miscd">
           A <a href="./files/p24_quantum.pdf">class project</a> about numerically modeling quantum systems in MATLAB
@@ -246,7 +246,7 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/matplotlib.png" class="img-circle">
+          <img src="/images/matplotlib.png" class="img-circle" style="border-radius:50%;">
         </div>
 
         <div class="miscd">
@@ -259,8 +259,8 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/synthgrad.png" class="img-circle">
-          <div class="colorrect img-circle"></div>
+          <img src="/images/synthgrad.png" class="img-circle" style="border-radius:50%;">
+          <!-- <div class="colorrect img-circle"></div> -->
         </div>
         <div class="miscd">
           I wrote a <a href="https://nbviewer.jupyter.org/github/greydanus/np_nets/blob/master/synthetic_gradients.ipynb"> numpy model</a> of synthetic gradients for a neural network MNIST classifier. Inspired by this <a href="https://arxiv.org/abs/1608.05343">DeepMind paper</a>.
@@ -269,8 +269,8 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/tensorflow.jpg" class="img-circle">
-          <div class="colorrect img-circle"></div>
+          <img src="/images/tensorflow.jpg" class="img-circle" style="border-radius:50%;">
+          <!-- <div class="colorrect img-circle"></div> -->
         </div>
         <div class="miscd">
           An <a href="https://nbviewer.jupyter.org/github/greydanus/dlfun/blob/master/mixture_density/mdn.ipynb">Jupyter notebook</a> about Mixture Density Networks implemented in Google's TensorFlow library
@@ -279,7 +279,7 @@ header:
 
       <div class="miscitem">
         <div class="miscimg">
-          <img src="./static/mnist-gan.png" class="img-circle">
+          <img src="/images/mnist-gan.png" class="img-circle" style="border-radius:50%;">
         </div>
         <div class="miscd">
           I wrote a Generative Adversarial Network <a href="https://github.com/greydanus/mnist-gan">repo</a> for MNIST in PyTorch
@@ -289,6 +289,10 @@ header:
     </div>
   </div>
 </div>
+
+
+
+
 
 <script>
 var more_projects_shown = false;
