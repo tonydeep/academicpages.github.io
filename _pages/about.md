@@ -154,6 +154,31 @@ header:
   </div>
 
   <div id="morepubs">
+    
+    <div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="/images/papers/RGRU-Context.png">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
+            <div class="pubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
+            <div class="puba">Van-Khanh Tran and Le-Minh Nguyen</div>
+            <div class="pubv"></div>
+            <div class="publ">
+              <ul>
+                <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
+                <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="pubwrap">
       <div class="row">
         <div class="col-md-6">
@@ -178,6 +203,7 @@ header:
       </div>
     </div>
   </div>
+
 </div>
 
 
