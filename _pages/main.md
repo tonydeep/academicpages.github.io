@@ -127,33 +127,89 @@ header:
             <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
           </div>
             <div class="tdesc">
-              <p> Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
+              <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
               </p>
             </div>
-            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
+            
+            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
+            </div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
+                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
+                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      <!-- Month Section -->
+      <div id="shownlgpapers" class="timelineitem">
+        <div class="tdate">September</div>
+        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+          Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+          <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
+            <sup class="tlink">link</sup>
+          </a>
+        </div>
+        <div id="RALSTM-model" style="display:none;">
+          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
+          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
+          <div class="tcontent">
+            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
+          </div>
+            <div class="tdesc">
+              <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
+              </p>
+            </div>
+            
+            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
+            </div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
+                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
+                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
         <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('Auto-Sentence-Compression-Model')">
-          Language as a Latent Variable
-          <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
+        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+          Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+          <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="Auto-Sentence-Compression-Model" style="display:none;">
-          <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
-          <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
+        <div id="RALSTM-model" style="display:none;">
+          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
+          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
           <div class="tcontent">
-            <div class="timg_border"><img class="timage" src="/assets/papers/Auto-encoding-Sentence-Compression-Model.png"></div>
+            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
           </div>
             <div class="tdesc">
-              <p> <b>Hypothesis</b>
+              <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
+              </p>
             </div>
+            
+            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
+            </div>
+
+            <div class="publ">
+              <ul>
+                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
+                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
+                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        </div>
+        
   </div>
 </div>
 
