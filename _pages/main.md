@@ -54,7 +54,6 @@ header:
   </div>
 
 </div>
-
 <!--  -->
 
 <div class="container" style="margin-top:50px;">
@@ -96,7 +95,7 @@ header:
 <hr class="soft" style="margin-top:50px;">
 <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
 <center>
-  <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">My list of publications filtered by subject. Click for details</p>
+  <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">My list of publications filtered by subjects. Click for details</p>
 </center>
 <center>
   <div class="mshowmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
@@ -115,7 +114,7 @@ header:
     <div class="tyear">2017</div>
 
       <!-- Month Section -->
-      <div id="shownlgpapers" class="timelineitem">
+      <div id="nlgpapers" class="timelineitem">
         <div class="tdate">August</div>
         <div class="mpubt" onClick="showDetails('RALSTM-model')">
           Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
@@ -150,7 +149,7 @@ header:
         </div>
 
       <!-- Month Section -->
-      <div id="shownlgpapers" class="timelineitem">
+      <div id="nlgpapers" class="timelineitem">
         <div class="tdate">August</div>
         <div class="mpubt" onClick="showDetails('ARoA-model')">
           Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation
@@ -183,7 +182,7 @@ header:
         </div>
 
         <!-- Month Section -->
-      <div id="shownlgpapers" class="timelineitem">
+      <div id="nlgpapers" class="timelineitem">
         <div class="tdate">August</div>
         <div class="mpubt" onClick="showDetails('SRGRU-model')">
           Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems
