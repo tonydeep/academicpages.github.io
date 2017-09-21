@@ -248,6 +248,11 @@ hr.soft {
   font-size: 18px;
   color: #900;
 }
+.mpubaff {
+  font-size: 18px;
+  font-weight:300;
+  color: #000;
+}
 .mpuba {
   font-size: 15px;
   color: #900;
@@ -347,6 +352,20 @@ hr.soft {
   color: #333;
 }
 
+.mshowmore {
+  border: 1px solid #CCC;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  color: #999;
+  margin: 0px auto;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.mshowmore:hover {
+  color: #333;
+}
 .miscitem {
   margin: 10px 0px 60px;
 }

@@ -90,6 +90,8 @@ header:
 <!-- ===================== -->
 
 
+
+
 <!-- Research -->
 <hr class="soft" style="margin-top:50px;">
 <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
@@ -97,13 +99,13 @@ header:
   <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
 </center>
 <center>
-  <div class="showmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
-  <div class="showmore" id="shownlgpapers" style="display:inline-block;">NL Generation</div>
-  <div class="showmore" id="showmiscpapers" style="display:inline-block;">Misc</div>
-  <!-- <div class="showmore" id="showneuropapers" style="display:inline-block;">Neuroscience</div> -->
-  <!-- <div class="showmore" id="showpredictivepapers" style="display:inline-block;">Predictive DL</div> -->
-  <!-- <div class="showmore" id="showalgpapers" style="display:inline-block;">Algorithmic DL</div> -->
-  <!-- <div class="showmore" id="showtheorypapers" style="display:inline-block;">DL Theory</div> -->
+  <div class="mshowmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
+  <div class="mshowmore" id="shownlgpapers" style="display:inline-block;">NL Generation</div>
+  <div class="mshowmore" id="showmiscpapers" style="display:inline-block;">Misc</div>
+  <!-- <div class="mshowmore" id="showneuropapers" style="display:inline-block;">Neuroscience</div> -->
+  <!-- <div class="mshowmore" id="showpredictivepapers" style="display:inline-block;">Predictive DL</div> -->
+  <!-- <div class="mshowmore" id="showalgpapers" style="display:inline-block;">Algorithmic DL</div> -->
+  <!-- <div class="mshowmore" id="showtheorypapers" style="display:inline-block;">DL Theory</div> -->
 </center>
 
 <div class="container">
@@ -114,22 +116,22 @@ header:
 
       <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
-        <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+        <div class="tdate">August</div>
+        <div class="mpubt" onClick="showDetails('RALSTM-model')">
           Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
           <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
             <sup class="tlink">link</sup>
           </a>
         </div>
         <div id="RALSTM-model" style="display:none;">
-          <div class="tauthor">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
-          <div class="taffiliation"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
+          <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
+          <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div class="timg_border">
-              <img class="timage" src="/images/papers/CoNLL-Models.png">
+            <div>
+              <img src="/images/papers/CoNLL-Models.png">
             </div>
           </div>
-            <div class="tdesc">
+            <div class="mpubd">
               <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
               </p>
             </div>
@@ -149,32 +151,32 @@ header:
 
       <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
-        <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('RALSTM-model3')">
-          Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
-          <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
+        <div class="tdate">August</div>
+        <div class="mpubt" onClick="showDetails('ARoA-model')">
+          Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation
+          <a href="https://www.researchgate.net/publication/317739912_Neural-based_Natural_Language_Generation_in_Dialogue_using_RNN_Encoder-Decoder_with_Semantic_Aggregation">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="RALSTM-model3" style="display:none;">
-          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
-          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
+        <div id="ARoA-model" style="display:none;">
+          <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup> and Satoshi Tojo<sup>1</sup></div>
+          <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
+            <div><img src="/images/papers/SIGDial-Models.png"></div>
           </div>
-            <div class="tdesc">
-              <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
+            <div class="mpubd">
+              <p> This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements.
               </p>
             </div>
             
-            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
+            <!-- <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span> -->
             </div>
 
-            <div class="publ">
+            <div class="mpubl">
               <ul>
-                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
-                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
-                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
+<!--            <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li> -->
+                <li><a href="https://www.researchgate.net/publication/317739912_Neural-based_Natural_Language_Generation_in_Dialogue_using_RNN_Encoder-Decoder_with_Semantic_Aggregation">PDF</a></li>
+                <li><a href="http://www.sigdial.org/workshops/conference18/">SGIDial 2017</a></li>
               </ul>
             </div>
           </div>
@@ -182,118 +184,35 @@ header:
 
         <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
-        <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('RALSTM-model2')">
-          Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
-          <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
+        <div class="tdate">August</div>
+        <div class="mpubt" onClick="showDetails('RALSTM-model2')">
+          Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems
+          <a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">
             <sup class="tlink">link</sup>
           </a>
         </div>
         <div id="RALSTM-model2" style="display:none;">
-          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
-          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
+          <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
+          <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
+            <div><img src="/images/papers/RGRU-Context.png"></div>
           </div>
-            <div class="tdesc">
-              <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
-              </p>
-            </div>
-            
-            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
-            </div>
-
-            <div class="publ">
-              <ul>
-                <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
-                <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
-                <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
-              </ul>
-            </div>
+          <div class="mpubd">
+            <p> This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.
+            </p>
           </div>
+            <!-- <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span> -->
         </div>
 
-  </div>
-</div>
-
-
-<div class="container">
-  <div id="pubs">
-    <div class="mpubwrap">
-      <div class="row">
-          <div class="pub">
-            <div class="mpubt" onClick="showDetails('RALSTM-model')">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
-            <div id="RALSTM-model1" style="display:none;">
-              <div class="mpubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
-              <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen</div>
-              <div class="mpubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
-              <div class="mpubv"></div>
-              <div class="mpubl">
-                <ul>
-                  <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
-                  <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
-                  <li><a href="http://www.conll.org/">CoNLL 2017</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="mpubwrap">
-      <div class="row">
-          <div class="pub">
-            <div class="mpubt">Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation</div>
-            <div class="mpubd">This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements. </div>
-            <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen, Satoshi Tojo</div>
-            <div class="mpubv"></div>
-            <div class="mpubl">
-              <ul>
-                <li><a href="https://www.researchgate.net/publication/317739912_Neural-based_Natural_Language_Generation_in_Dialogue_using_RNN_Encoder-Decoder_with_Semantic_Aggregation">PDF</a></li>
-                <li><a href="http://www.sigdial.org/workshops/conference18/">SGIDial 2017</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    </div>
-
- 
-  <div class="mpubwrap">
-      <div class="row">
-          <div class="pub">
-            <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
-            <div class="mpubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
-            <div class="mpuba">Van-Khanh Tran and Le-Minh Nguyen</div>
-            <div class="mpubv"></div>
-            <div class="mpubl">
-              <ul>
-                <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
-                <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="mpubwrap">
-      <div class="row">
-          <div class="pub">
-            <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
-            <div class="mpubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
-            <div class="mpuba">Van-Khanh Tran and Le-Minh Nguyen</div>
-            <div class="mpubv"></div>
-            <div class="mpubl">
-              <ul>
-                <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
-                <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
-              </ul>
-            </div>
-          </div>
+        <div class="mpubl">
+          <ul>
+            <!-- <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li> -->
+            <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
+            <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
+          </ul>
         </div>
       </div>
-
 </div>
-
 
 
 
@@ -416,4 +335,3 @@ function start() {
 </script>
 
 
-</body>
