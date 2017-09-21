@@ -92,7 +92,8 @@ header:
 
 <!-- Research -->
 <hr class="soft" style="margin-top:50px;">
-<p>A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
+<h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
+<p class="container" style="font-size:18px; font-weight:350;color:#062a33;">A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
 
 <center>
   <div class="showmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
@@ -111,32 +112,30 @@ header:
     <div class="tyear">2017</div>
 
       <!-- Month Section -->
-      <div id="generativepapers" class="timelineitem">
+      <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('Auto-encoding-Sentence-Compression-Model')">
-          Language as a Latent Variable: Discrete Generative Models for Sentence Compression
-          <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
+        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+          Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
+          <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="Auto-encoding-Sentence-Compression-Model" style="display:none;">
-          <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
-          <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
+        <div id="RALSTM-model" style="display:none;">
+          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
+          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
           <div class="tcontent">
-            <div class="timg_border"><img class="timage" src="/assets/papers/Auto-encoding-Sentence-Compression-Model.png"></div>
+            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
           </div>
             <div class="tdesc">
-              <p> <b>Hypothesis</b>
-              <ul> 
-                <li>A variational auto encoder can be used for inference of a generative model where the latent variable is a language itself.</li>
-              </ul>
+              <p> Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
               </p>
             </div>
+            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
           </div>
         </div>
 
         <!-- Month Section -->
-      <div id="generativepapers" class="timelineitem">
+      <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">September</div>
         <div class="ttitle" onClick="showDetails('Auto-Sentence-Compression-Model')">
           Language as a Latent Variable
@@ -160,14 +159,12 @@ header:
 
 
 <div class="container">
-  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 30px; padding: 10px 0px 40px;">Research</h2>
-
   <div id="pubs">
     <div class="mpubwrap">
       <div class="row">
           <div class="pub">
             <div class="mpubt" onClick="showDetails('RALSTM-model')">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
-            <div id="RALSTM-model" style="display:none;">
+            <div id="RALSTM-model1" style="display:none;">
               <div class="mpubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
               <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen</div>
               <div class="mpubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
@@ -200,15 +197,9 @@ header:
           </div>
         </div>
     </div>
-  </div>
 
-  <div class="showmore" id="showmorepubs">
-    Show more
-  </div>
-
-  <div id="morepubs">
-    
-    <div class="mpubwrap">
+ 
+  <div class="mpubwrap">
       <div class="row">
           <div class="pub">
             <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
@@ -241,7 +232,6 @@ header:
           </div>
         </div>
       </div>
-  </div>
 
 </div>
 
