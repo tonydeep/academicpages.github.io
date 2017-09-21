@@ -4,7 +4,7 @@ permalink: /about/
 layout: splash
 excerpt: "Learning today, Leading tomorrow."
 header:
-  overlay_image: about/banner-2.jpg
+  overlay_image: about/banner-4.jpg
   caption: "Science with a spirit of adventure!"
 ---
 
