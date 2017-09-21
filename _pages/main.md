@@ -185,13 +185,13 @@ header:
         <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">August</div>
-        <div class="mpubt" onClick="showDetails('RALSTM-model2')">
+        <div class="mpubt" onClick="showDetails('SRGRU-model')">
           Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems
           <a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="RALSTM-model2" style="display:none;">
+        <div id="SRGRU-model" style="display:none;">
           <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
           <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
@@ -218,43 +218,11 @@ header:
 
 
 
+
+
+<!-- SCRIPTS -->
+
 <script>
-var more_projects_shown = false;
-function start() {
-  $("#showmoreprojects").click(function() {
-    if(!more_projects_shown) {
-      $("#moreprojects").slideDown('fast', function() {
-        $("#showmoreprojects").text('hide');
-      });
-      more_projects_shown = true;
-    } else {
-      $("#moreprojects").slideUp('fast', function() {
-        $("#showmoreprojects").text('show more');
-      });
-      more_projects_shown = false;
-    }
-  });
-
-  var more_pubs_shown = false;
-  $("#showmorepubs").click(function() {
-    if(!more_pubs_shown) {
-      $("#morepubs").slideDown('fast', function() {
-        $("#showmorepubs").text('hide');
-      });
-      more_pubs_shown = true;
-    } else {
-      $("#morepubs").slideUp('fast', function() {
-        $("#showmorepubs").text('show more');
-      });
-      more_pubs_shown = false;
-    }
-  });
-}
-
-function showDetails(name) {
-    $('#' + name).toggle(); 
-}
-
 function start() {
   var show_nlg_papers = true;
   $("#shownlgpapers").click(function() {
@@ -334,5 +302,13 @@ function start() {
 }
 
 </script>
+
+
+<script type="text/javascript">
+function showDetails(name) {
+    $('#' + name).toggle(); 
+}
+</script>
+
 
 </body>
