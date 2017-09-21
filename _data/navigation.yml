@@ -21,11 +21,11 @@ main:
   # - title: "CV"
   #   url: /cv/
 
-  - title: "Splash page"
-    url: /splash-page/
+  # - title: "Splash page"
+  #   url: /splash-page/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
     
   - title: "About me"
     url: /about/
