@@ -93,8 +93,9 @@ header:
 <!-- Research -->
 <hr class="soft" style="margin-top:50px;">
 <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
-<p class="container" style="font-size:18px; font-weight:350;color:#062a33;">A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
-
+<center>
+  <p class="container" style="font-size:18px; font-weight:350;color:#062a33;">A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
+</center>
 <center>
   <div class="showmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
   <div class="showmore" id="shownlgpapers" style="display:inline-block;">NL Generation</div>
@@ -121,10 +122,12 @@ header:
           </a>
         </div>
         <div id="RALSTM-model" style="display:none;">
-          <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
-          <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
+          <div class="tauthor">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
+          <div class="taffiliation"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div class="timg_border"><img class="timage" src="/images/papers/CoNLL-Models.png"></div>
+            <div class="timg_border">
+              <img class="timage" src="/images/papers/CoNLL-Models.png">
+            </div>
           </div>
             <div class="tdesc">
               <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
@@ -134,7 +137,7 @@ header:
             <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span>
             </div>
 
-            <div class="publ">
+            <div class="mpubl">
               <ul>
                 <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
                 <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
@@ -147,13 +150,13 @@ header:
       <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+        <div class="ttitle" onClick="showDetails('RALSTM-model3')">
           Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
           <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="RALSTM-model" style="display:none;">
+        <div id="RALSTM-model3" style="display:none;">
           <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
           <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
           <div class="tcontent">
@@ -180,13 +183,13 @@ header:
         <!-- Month Section -->
       <div id="shownlgpapers" class="timelineitem">
         <div class="tdate">September</div>
-        <div class="ttitle" onClick="showDetails('RALSTM-model')">
+        <div class="ttitle" onClick="showDetails('RALSTM-model2')">
           Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks
           <a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">
             <sup class="tlink">link</sup>
           </a>
         </div>
-        <div id="RALSTM-model" style="display:none;">
+        <div id="RALSTM-model2" style="display:none;">
           <div class="tauthor">Van-Khanh Tran, Le-Minh Nguyen</div>
           <!-- <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div> -->
           <div class="tcontent">
@@ -209,7 +212,7 @@ header:
             </div>
           </div>
         </div>
-        
+
   </div>
 </div>
 
