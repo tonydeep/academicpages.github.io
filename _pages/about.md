@@ -91,7 +91,7 @@ header:
 
 
 <!-- Research -->
-<hr class="soft" style="margin-top:50px;">
+<!-- <hr class="soft" style="margin-top:50px;">
 
 <div class="container">
   
@@ -205,10 +205,90 @@ header:
   </div>
 
 </div>
+ -->
 
+<hr class="soft">
 
+<div class="container">
 
+  <h2>Clone from others</h2>
+  
+  <div class="row">
 
+    <div class="col-md-6">
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/nn.png" class="img-circle">
+        </div>
+        <div class="miscd">
+          I wrote a math + code introduction to neural networks and backpropagation. Uses pure numpy and a <a href="https://nbviewer.jupyter.org/github/greydanus/np_nets/blob/master/mnist_nn.ipynb">Jupyter notebook</a>.
+        </div>
+      </div>
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/eye.png" class="img-circle">
+          <!-- <div class="colorrect img-circle"></div> -->
+        </div>
+        <div class="miscd">
+          An article I wrote about <a href="https://issuu.com/dartmouth_science/docs/16w_dujs_print_issue?e=0/34538453">depth perception</a> (page 27) for the Dartmouth Undergraduate Journal of Science
+        </div>
+      </div>
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/psi.png" class="img-circle">
+        </div>
+        <div class="miscd">
+          A <a href="./files/p24_quantum.pdf">class project</a> about numerically modeling quantum systems in MATLAB
+        </div>
+      </div>
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/matplotlib.png" class="img-circle">
+        </div>
+
+        <div class="miscd">
+          A <a href="https://gist.github.com/greydanus/f6eee59eaf1d90fcb3b534a25362cea4">gist</a> for dynamic plotting with matplotlib. Useful for updating loss functions within a training loop.
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/synthgrad.png" class="img-circle">
+          <div class="colorrect img-circle"></div>
+        </div>
+        <div class="miscd">
+          I wrote a <a href="https://nbviewer.jupyter.org/github/greydanus/np_nets/blob/master/synthetic_gradients.ipynb"> numpy model</a> of synthetic gradients for a neural network MNIST classifier. Inspired by this <a href="https://arxiv.org/abs/1608.05343">DeepMind paper</a>.
+        </div>
+      </div>
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/tensorflow.jpg" class="img-circle">
+          <div class="colorrect img-circle"></div>
+        </div>
+        <div class="miscd">
+          An <a href="https://nbviewer.jupyter.org/github/greydanus/dlfun/blob/master/mixture_density/mdn.ipynb">Jupyter notebook</a> about Mixture Density Networks implemented in Google's TensorFlow library
+        </div>
+      </div>
+
+      <div class="miscitem">
+        <div class="miscimg">
+          <img src="./static/mnist-gan.png" class="img-circle">
+        </div>
+        <div class="miscd">
+          I wrote a Generative Adversarial Network <a href="https://github.com/greydanus/mnist-gan">repo</a> for MNIST in PyTorch
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <script>
 var more_projects_shown = false;
