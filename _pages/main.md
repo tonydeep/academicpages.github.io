@@ -101,12 +101,12 @@ header:
     <div class="pubwrap">
       <div class="row">
           <div class="pub">
-            <div class="pubt">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
-            <div class="pubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
-            <div class="puba">Van-Khanh Tran, Le-Minh Nguyen</div>
-            <div class="pubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
-            <div class="pubv"></div>
-            <div class="publ">
+            <div class="mpubt">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
+            <div class="mpubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
+            <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen</div>
+            <div class="mpubv">Acceptance rate: <span class="puba">18.7%</span>. Selected for oral presentation: <span class="puba">20/43</span></div>
+            <div class="mpubv"></div>
+            <div class="mpubl">
               <ul>
                 <li><a href="/files/RALSTM-Slides-CoNLL2017.pptx">Oral</a></li>
                 <li><a href="https://www.researchgate.net/publication/317300175_Natural_Language_Generation_for_Spoken_Dialogue_System_using_RNN_Encoder-Decoder_Networks">PDF</a></li>
@@ -120,11 +120,11 @@ header:
     <div class="pubwrap">
       <div class="row">
           <div class="pub">
-            <div class="pubt">Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation</div>
-            <div class="pubd">This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements. </div>
-            <div class="puba">Van-Khanh Tran, Le-Minh Nguyen, Satoshi Tojo</div>
-            <div class="pubv"></div>
-            <div class="publ">
+            <div class="mpubt">Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation</div>
+            <div class="mpubd">This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements. </div>
+            <div class="mpuba">Van-Khanh Tran, Le-Minh Nguyen, Satoshi Tojo</div>
+            <div class="mpubv"></div>
+            <div class="mpubl">
               <ul>
                 <li><a href="https://www.researchgate.net/publication/317739912_Neural-based_Natural_Language_Generation_in_Dialogue_using_RNN_Encoder-Decoder_with_Semantic_Aggregation">PDF</a></li>
                 <li><a href="http://www.sigdial.org/workshops/conference18/">SGIDial 2017</a></li>
@@ -144,11 +144,11 @@ header:
     <div class="pubwrap">
       <div class="row">
           <div class="pub">
-            <div class="pubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
-            <div class="pubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
-            <div class="puba">Van-Khanh Tran and Le-Minh Nguyen</div>
-            <div class="pubv"></div>
-            <div class="publ">
+            <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
+            <div class="mpubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
+            <div class="mpuba">Van-Khanh Tran and Le-Minh Nguyen</div>
+            <div class="mpubv"></div>
+            <div class="mpubl">
               <ul>
                 <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
                 <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
@@ -161,11 +161,11 @@ header:
     <div class="pubwrap">
       <div class="row">
           <div class="pub">
-            <div class="pubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
-            <div class="pubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
-            <div class="puba">Van-Khanh Tran and Le-Minh Nguyen</div>
-            <div class="pubv"></div>
-            <div class="publ">
+            <div class="mpubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
+            <div class="mpubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
+            <div class="mpuba">Van-Khanh Tran and Le-Minh Nguyen</div>
+            <div class="mpubv"></div>
+            <div class="mpubl">
               <ul>
                 <li><a href="https://www.researchgate.net/publication/317300329_Semantic_Refinement_GRU-based_Neural_Language_Generation_for_Spoken_Dialogue_Systems">PDF</a></li>
                 <li><a href="http://pacling.ucsy.edu.mm/pacling/index.html">PACLING 2017</a></li>
