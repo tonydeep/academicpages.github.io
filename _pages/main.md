@@ -92,6 +92,17 @@ header:
 
 <!-- Research -->
 <hr class="soft" style="margin-top:50px;">
+<p>A fairly random set of papers that I found interesting. Updated weekly. Filter by subject, click for details</p>
+
+<center>
+  <div class="showmore" id="showgenerativepapers" style="display:inline-block;">Generative DL</div>
+  <div class="showmore" id="shownlgpapers" style="display:inline-block;">NL Generation</div>
+  <div class="showmore" id="showmiscpapers" style="display:inline-block;">Misc</div>
+  <!-- <div class="showmore" id="showneuropapers" style="display:inline-block;">Neuroscience</div> -->
+  <!-- <div class="showmore" id="showpredictivepapers" style="display:inline-block;">Predictive DL</div> -->
+  <!-- <div class="showmore" id="showalgpapers" style="display:inline-block;">Algorithmic DL</div> -->
+  <!-- <div class="showmore" id="showtheorypapers" style="display:inline-block;">DL Theory</div> -->
+</center>
 
 <div class="container">
   <div id="timeline">
