@@ -95,17 +95,11 @@ header:
 
 <div class="container">
   
-  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
+  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 30px; padding: 10px 0px 40px;">Research</h2>
   <div id="pubs">
 
     <div class="pubwrap">
       <div class="row">
-        <div class="col-md-6">
-          <div class="pubimg">
-            <img src="/images/papers/CoNLL-Models.png">
-          </div>
-        </div>
-        <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Natural Language Generation for Spoken Dialogue System using RNN Encoder-Decoder Networks</div>
             <div class="pubd">Natural language generation (NLG) is a critical component in a spoken dialogue system. This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.</div>
@@ -120,18 +114,11 @@ header:
               </ul>
             </div>
           </div>
-        </div>
       </div>
     </div>
 
     <div class="pubwrap">
       <div class="row">
-        <div class="col-md-6">
-          <div class="pubimg">
-            <img src="/images/papers/SIGDial-Models.png">
-          </div>
-        </div>
-        <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation</div>
             <div class="pubd">This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements. </div>
@@ -145,7 +132,6 @@ header:
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 
@@ -157,12 +143,6 @@ header:
     
     <div class="pubwrap">
       <div class="row">
-        <div class="col-md-6">
-          <div class="pubimg">
-            <img src="/images/papers/RGRU-Context.png">
-          </div>
-        </div>
-        <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
             <div class="pubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
@@ -176,17 +156,10 @@ header:
             </div>
           </div>
         </div>
-      </div>
     </div>
 
     <div class="pubwrap">
       <div class="row">
-        <div class="col-md-6">
-          <div class="pubimg">
-            <img src="/images/papers/RGRU-Context.png">
-          </div>
-        </div>
-        <div class="col-md-6">
           <div class="pub">
             <div class="pubt">Semantic Refinement GRU-based Neural Language Generation for Spoken Dialogue Systems</div>
             <div class="pubd">This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.</div>
@@ -201,7 +174,6 @@ header:
           </div>
         </div>
       </div>
-    </div>
   </div>
 
 </div>
