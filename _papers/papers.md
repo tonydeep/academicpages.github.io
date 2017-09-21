@@ -128,6 +128,7 @@ layout: about
 
 
   </div>
+</div>
 
 
 

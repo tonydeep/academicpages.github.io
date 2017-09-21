@@ -94,10 +94,64 @@ header:
 <hr class="soft" style="margin-top:50px;">
 
 <div class="container">
-  
-  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 30px; padding: 10px 0px 40px;">Research</h2>
-  <div id="pubs">
+  <div id="timeline">
+    
+    <!-- Year Section -->
+    <div class="tyear">2017</div>
 
+      <!-- Month Section -->
+      <div id="generativepapers" class="timelineitem">
+        <div class="tdate">September</div>
+        <div class="ttitle" onClick="showDetails('Auto-encoding-Sentence-Compression-Model')">
+          Language as a Latent Variable: Discrete Generative Models for Sentence Compression
+          <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
+            <sup class="tlink">link</sup>
+          </a>
+        </div>
+        <div id="Auto-encoding-Sentence-Compression-Model" style="display:none;">
+          <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
+          <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
+          <div class="tcontent">
+            <div class="timg_border"><img class="timage" src="/assets/papers/Auto-encoding-Sentence-Compression-Model.png"></div>
+          </div>
+            <div class="tdesc">
+              <p> <b>Hypothesis</b>
+              <ul> 
+                <li>A variational auto encoder can be used for inference of a generative model where the latent variable is a language itself.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Month Section -->
+      <div id="generativepapers" class="timelineitem">
+        <div class="tdate">September</div>
+        <div class="ttitle" onClick="showDetails('Auto-Sentence-Compression-Model')">
+          Language as a Latent Variable
+          <a href="http://aclweb.org/anthology/D/D16/D16-1031.pdf">
+            <sup class="tlink">link</sup>
+          </a>
+        </div>
+        <div id="Auto-Sentence-Compression-Model" style="display:none;">
+          <div class="tauthor">Yishu Miao<sup>1</sup>, Phil Blunsom<sup>2</sup></div>
+          <div class="taffiliation"><sup>1</sup>University of Oxford, <sup>2</sup>Google Deepmind</div>
+          <div class="tcontent">
+            <div class="timg_border"><img class="timage" src="/assets/papers/Auto-encoding-Sentence-Compression-Model.png"></div>
+          </div>
+            <div class="tdesc">
+              <p> <b>Hypothesis</b>
+            </div>
+        </div>
+        </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 30px; padding: 10px 0px 40px;">Research</h2>
+
+  <div id="pubs">
     <div class="mpubwrap">
       <div class="row">
           <div class="pub">
