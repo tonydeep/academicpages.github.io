@@ -28,11 +28,12 @@ header:
 <body onload="start()">
 
 <!-- Short Bio -->
+<div class="container" style="margin-top:50px;">
 <div class="container" style="font-size:18px; font-weight:350;margin-top:30px;margin-bottom:30px;color:#062a33;">
   <b>Bio</b>. I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning.
 </div>
 
-<div class="container">
+<div class="container" >
   <div id="headerblob">
     <a target="_blank" href="http://tonydeep.github.io/"><img src="/images/profile.png" class="img-circle imgme" style="border-radius:50%;"></a>
     <div id="headertext">
@@ -48,6 +49,7 @@ header:
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <!--  -->
