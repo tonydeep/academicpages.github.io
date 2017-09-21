@@ -49,7 +49,7 @@ header:
     <!-- </div> -->
 
   <!-- Short Bio -->
-  <div class="container" style="font-size:18px; font-weight:350;margin-top:30px;margin-bottom:30px;color:#062a33;">
+  <div class="container" style="font-size:18px; font-weight:350;margin-top:170px;margin-bottom:30px;color:#062a33;">
     <b>Bio</b>. I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning.
   </div>
 
