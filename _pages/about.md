@@ -91,11 +91,11 @@ header:
 
 
 <!-- Research -->
-<hr class="soft">
+<hr class="soft" style="margin-top:50px;">
 
 <div class="container">
   
-  <h2 style="margin: 50px 0px 0px 0px; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
+  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
   <div id="pubs">
 
     <div class="pubwrap">
