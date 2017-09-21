@@ -27,7 +27,7 @@ header:
 
 <body onload="start()">
 
-<!-- Short Bio -->
+
 <div class="container" style="margin-top:50px;">
 
   <!-- <div class="container" > -->
@@ -48,6 +48,7 @@ header:
   </div>
     <!-- </div> -->
 
+  <!-- Short Bio -->
   <div class="container" style="font-size:18px; font-weight:350;margin-top:30px;margin-bottom:30px;color:#062a33;">
     <b>Bio</b>. I am a PhD student in Natural Language Processing at Nguyen lab, JAIST, Japan. My research experience covers natural language generation, deep learning, and Deep Bayesian Nets. I am particularly excited about recurrent neural networks, deep generative models, and the scientific applications of deep learning.
   </div>
@@ -56,7 +57,7 @@ header:
 
 <!--  -->
 
-<div class="container" style="margin-top:150px;">
+<div class="container" style="margin-top:50px;">
   
   <div class="timelineitem">
       <div class="tdate">October 2017</div>
@@ -93,7 +94,8 @@ header:
 <hr class="soft">
 
 <div class="container">
-  <h2 style="margin: 0; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
+  
+  <h2 style="margin: 50px 0px 0px 0px; text-align: center; font-weight: 400; font-size: 40px; padding: 10px 0px 40px;">Research</h2>
   <div id="pubs">
 
     <div class="pubwrap">
