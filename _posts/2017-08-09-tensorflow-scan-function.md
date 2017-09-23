@@ -5,6 +5,7 @@ excerpt: "Hàm scan là một một trong những hàm quan trọng trong Theano
 subtitle: "High Order Functions của Tensorflow"
 permalink: /posts/2017/08/09/tensorflow-scan-function/
 mathjax: true
+categories: tensorflow
 tags: 
   - tensorflow
   - tutorials

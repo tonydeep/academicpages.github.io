@@ -2,6 +2,7 @@
 title: Cross-Entropy Loss là gì?
 excerpt: This post reviews some extremely remarkable results in applying deep neural networks to natural language processing (NLP)
 date: 2017-07-07
+categories: tensorflow
 tags: 
   - neural networks
   - deep learning

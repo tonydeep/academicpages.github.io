@@ -1,6 +1,7 @@
 ---
 title:  "What is Deep Learning?"
 excerpt: "After being obsessed with this field for more than a year, I should have a concise and satisfying answer. Strangely, I have three."
+categories: tensorflow NLP
 tags: 
   - tensorflow
   - tutorials

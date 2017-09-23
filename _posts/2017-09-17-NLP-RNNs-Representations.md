@@ -2,6 +2,7 @@
 title: Deep Learning, NLP, and Representations
 excerpt: This post reviews some extremely remarkable results in applying deep neural networks to natural language processing (NLP)
 date: 2017-07-07
+categories: tensorflow NLP
 tags: 
   - neural networks
   - deep learning

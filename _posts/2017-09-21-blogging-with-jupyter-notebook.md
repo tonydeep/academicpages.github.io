@@ -2,6 +2,7 @@
 title: Blogging with Jupyter Notebook
 excerpt: This post shows how to use Jupyter Notebook in a blogging post
 date: 2017-07-07
+categories: tensorflow NLP
 tags: 
   - neural networks
   - deep learning

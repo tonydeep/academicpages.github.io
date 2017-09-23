@@ -57,6 +57,13 @@ header:
 <!--  -->
 
 <div class="container" style="margin-top:50px;">
+
+  <div class="timelineitem">
+      <div class="tdate">November 2017</div>
+      <div class="ttitle"><a href="http://nafosted-nics.org/call-for-papers.html" style="color:#333;">The NAFOSTED Conference on Information and Computer Science (NICS 2017)</a></div>
+      <div class="tdesc"><span class="thigh">November 24-25 in Hanoi, Vietnam</span></div>
+      <div> </div>
+    </div>
   
   <div class="timelineitem">
       <div class="tdate">October 2017</div>
