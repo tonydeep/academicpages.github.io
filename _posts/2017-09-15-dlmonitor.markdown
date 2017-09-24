@@ -1,14 +1,6 @@
 ---
 title:  "Deep Learning Monitor"
-excerpt: "Deep Learning Monitor"
-categories: deep learning
-tags: 
-  - tensorflow
-  - tutorials
-  - rnn
-date: 2017-09-15 11:00:00
-permalink: /posts/2017/09/15/dlmonitor/
-https://deeplearn.org/
+link: https://deeplearn.org/
 ---
 https://deeplearn.org/
 {% include toc title="Unique Title" icon="file-text" %}
