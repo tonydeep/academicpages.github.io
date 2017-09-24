@@ -7,7 +7,8 @@ tags:
   - tutorials
   - rnn
 date: 2017-09-15 11:00:00
-permalink: https://deeplearn.org/
+permalink: /posts/2017/09/15/dlmonitor/
+https://deeplearn.org/
 ---
 https://deeplearn.org/
 {% include toc title="Unique Title" icon="file-text" %}
