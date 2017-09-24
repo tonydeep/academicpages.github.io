@@ -132,9 +132,7 @@ header:
           <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
           <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div>
-              <img src="/images/papers/CoNLL-Models.png">
-            </div>
+            <div> <img src="/images/papers/CoNLL-Models.png" style="max-width:70%;"></div>
           </div>
             <div class="mpubd">
               <p> This paper presents a Recurrent Neural Network based Encoder-Decoder architecture, in which an LSTM-based decoder called <b>RALSTM</b> is introduced to select, aggregate semantic elements produced by an attention mechanism over the input elements, and to produce the required utterances.
@@ -167,7 +165,7 @@ header:
           <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup> and Satoshi Tojo<sup>1</sup></div>
           <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div><img src="/images/papers/SIGDial-Models.png"></div>
+            <div><img src="/images/papers/SIGDial-Models.png" style="max-width:70%;"></div>
           </div>
             <div class="mpubd">
               <p> This paper presents a model called Encoder-Aggregator-Decoder which is an extension of an Recurrent Neural Network based Encoder-Decoder architecture. The proposed Semantic Aggregator consists of two components: an Aligner and a Refiner. The Aligner is a conventional attention calculated over the encoded input information, while the Refiner is another attention or gating mechanism stacked over the attentive Aligner in order to further select and aggregate the semantic elements.
@@ -200,7 +198,7 @@ header:
           <div class="puba">Van-Khanh Tran<sup>1,2</sup>, Le-Minh Nguyen<sup>1</sup></div>
           <div class="mpubaff"><sup>1</sup>JAIST, <sup>2</sup>ICTU</div>
           <div class="tcontent">
-            <div><img src="/images/papers/RGRU-Context.png"></div>
+            <div><img src="/images/papers/RGRU-Context.png" style="max-width:70%;"></div>
           </div>
           <div class="mpubd">
             <p> This paper presents a new approach to NLG by using recurrent neural networks (RNN), in which a gating mechanism is applied before RNN computation. This results in an architecture called <b>SRGRU</b> and allows the proposed model to generate appropriate sentences. The SRGRU generator can be learned from unaligned data by jointly training sentence planning and surface realization to produce natural language responses.
