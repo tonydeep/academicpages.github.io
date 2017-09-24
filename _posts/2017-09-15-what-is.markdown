@@ -1,15 +1,16 @@
 ---
-title:  "Deep Learning Monitor"
-excerpt: "Deep Learning Monitor"
-categories: deep learning
+title:  "What is deep learing?"
+excerpt: "Brief explaination about deep learning."
+categories:
+  - deep learning 
+  - machine learning
 tags: 
   - tensorflow
   - tutorials
   - rnn
 date: 2017-09-15 11:00:00
-permalink: https://deeplearn.org/
+permalink: /posts/2017/09/15/what-is-deep-learning
 ---
-https://deeplearn.org/
 {% include toc title="Unique Title" icon="file-text" %}
 
 ## Introduction 

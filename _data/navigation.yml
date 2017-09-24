@@ -8,6 +8,7 @@ main:
 
   # - title: "Interesting Papers"
   #   url: /papers/
+
   # - title: "Talks"
   #   url: /talks/    
 
@@ -27,6 +28,8 @@ main:
   # - title: "Guide"
   #   url: /markdown/
     
+  - title: "DL Monitor"
+    url: https://deeplearn.org/
+
   - title: "About me"
     url: /about/
-    

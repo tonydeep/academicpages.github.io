@@ -17,10 +17,7 @@ header:
   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
-
 {% include toc title="Unique Title" icon="file-text" %}
-
-Hàm ***scan*** là một một trong những hàm quan trọng trong Theano và giờ đây đã được Tensorflow sử dụng bởi sự tiện lợi và linh hoạt của nó.
 
 ## Overview 
 
