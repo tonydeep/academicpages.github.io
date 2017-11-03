@@ -4,7 +4,7 @@ permalink: /about/
 layout: splash
 excerpt: "Learning today, Leading tomorrow."
 header:
-  overlay_image: about/JAIST_above.jpg
+  overlay_image: about/JAIST-above.jpg
   caption: "Science with a spirit of adventure!"
 ---
 
